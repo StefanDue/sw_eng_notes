@@ -10,7 +10,7 @@ Stefan
 
 :wink: Philipp
 
-Friedrich
+:trollface: Friedrich
 
 Mirjam
 
