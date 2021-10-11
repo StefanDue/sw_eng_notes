@@ -18,7 +18,7 @@ Christian
 
 Bogdan
 
-Bernd
+:airplane: Bernd
 
 Conrad
 
