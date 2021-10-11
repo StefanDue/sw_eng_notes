@@ -8,7 +8,7 @@ Emir Berk
 
 :ski: Stefan
 
-Philipp Henrik
+:wink: Philipp
 
 Friedrich
 
@@ -18,16 +18,16 @@ Christian
 
 Bogdan
 
-Bernd
+:airplane: Bernd
 
 Conrad
 
 Josef
 
-Klaus
+:) Klaus
 
 Jakob
 
 Dominik
 
-Selahattin Can
+:sunglasses: Selahattin Can
