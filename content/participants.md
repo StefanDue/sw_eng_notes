@@ -24,7 +24,7 @@ Conrad
 
 Josef
 
-Klaus
+:) Klaus
 
 Jakob
 
