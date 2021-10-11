@@ -12,7 +12,7 @@ Stefan
 
 :trollface: Friedrich
 
-Mirjam
+:persevere:Mirjam
 
 :bicyclist: Christian
 
