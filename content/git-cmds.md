@@ -1,20 +1,20 @@
 # Git cmds
 
-# Init
+## :pencil2: Init
 Ein leeres Git-Repository erstellen oder ein bestehendes neuinitialisieren
 
 ```bash
 git init 
 ```
 
-# Clone 
+## :incoming_envelope: Clone 
 Ein Repository in einem neuen Verzeichnis klonen.
 
 ```bash
 git clone 
 ```
 
-## Wichtige Flags
+### Wichtige Flags
 ```bash
 -b <name>, --branch <name>
            Instead of pointing the newly created HEAD to the branch pointed to by the cloned repository's HEAD, point to <name> branch instead. In a
@@ -25,21 +25,21 @@ git clone
             The name of a new directory to clone into.         
 ```
 
-## Beispiel 
+### Beispiel 
 ```bash
 git clone git://git.kernel.org/pub/scm/.../linux.git my-linux
 cd my-linux
 ```
 Kopiert von der Quelle "git://git.kernel.org/pub/scm/.../linux.git" das Repository und legt es im neuen Ordner "my-linux" ab.
 
-# Branch
+## Branch
 Branches anzeigen, erstellen oder entfernen.
 
 ```bash
 git branch 
 ```
 
-## Wichtige Flags
+### Wichtige Flags
 ```bash
 -d, --delete
            Delete a branch. The branch must be fully merged in its upstream branch, or in HEAD if no upstream was set with --track or --set-upstream-to.
@@ -61,7 +61,7 @@ git branch
            restrict the characters allowed in a branch name.
 ```
 
-## Beispiel 
+### Beispiel 
 ```bash
 git branch my2.6.14 (1)
 git branch -d my2.6.13 (2)
@@ -69,14 +69,14 @@ git branch -d my2.6.13 (2)
 (1) Erstellt ein neuen Branch mit dem Namen "my2.6.14".
 (2) Löscht den Branch mit dem Namen "my2.6.13"
 
-# Switch
+## Switch
 Branches wechseln.
 
 ```bash
 git switch 
 ```
 
-## Wichtige Flags
+### Wichtige Flags
 ```bash
 -c <new-branch>, --create <new-branch>
            Create a new branch named <new-branch> starting at <start-point> before switching to the branch. This is a convenient shortcut for:
@@ -87,77 +87,75 @@ git switch
            Branch to switch to.              
 ```
 
-# Beispiel 
+### Beispiel 
 ```bash
 git switch my2.6.14
 ```
 Wechselt das aktuelle lokale Verzeichnis zu dem Branch "my2.6.14"  
 
-# Status
+## Status
 Den Zustand des Arbeitsverzeichnisses anzeigen.
 
 ```bash
 git status 
 ```
 
-# Fetch
+## :inbox_tray: Fetch
 Objekte und Referenzen von einem anderen Repository herunterladen.
 
 ```bash
 git fetch 
 ```
 
-# Pull
+## :inbox_tray: Pull
 Objekte von einem externen Repository anfordern und sie mit einem anderen Repository oder einem lokalen Branch zusammenführen.
 
 ```bash
 git pull 
 ```
 
-## Wichtige Flags
+### Wichtige Flags
 ```bash
 
 ```
 
-# Add 
+## Add 
 Dateiinhalte zum Commit vormerken.
 
 ```bash
 git add 
 ```
 
-## Wichtige Flags
+### Wichtige Flags
 ```bash
 -A
 ```
 
-# Commit
+## Commit
 Änderungen in das Repository eintragen.
 
 ```basch 
 git commit
 ```
-## Flags
+### Wichtige Flags
 ```bash
 -A
 ```
 
-## Wichtige Flags
-
-# Push
+## :outbox_tray: Push
 Remote-Referenzen mitsamt den verbundenen Objekten aktualisieren.
 
 ```bach
 git push
 ```
 
-## Wichtige Flags
+### Wichtige Flags
 ```bash
 -A
 ```
 
 
-# .gitignore
+# :x: .gitignore 
 Dies ist ein File, welcher festlegt welche dateien nicht syncronisirt werden.
 
 ```bash
