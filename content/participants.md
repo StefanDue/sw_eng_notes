@@ -6,7 +6,7 @@ Jonas
 
 Emir Berk
 
-Stefan
+:ski: Stefan
 
 Philipp Henrik
 
