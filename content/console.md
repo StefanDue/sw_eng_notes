@@ -9,7 +9,7 @@ how does `.` and `..` work?
 mv, cp, mkdir, rm, touch
 
 ### :file_folder: mkdir
-Mit `mkdir` (engl. make directory) kann ein neues Verzeichnis erstellt werden.
+Mit `mkdir` (*engl. make directory*) kann ein neues Verzeichnis erstellt werden.
 Dem Befehl folgt eine Liste von Pfadnamen als Argument.
 
 #### Beispiel ohne Parameter
