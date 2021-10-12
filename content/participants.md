@@ -10,11 +10,11 @@ Emir Berk
 
 :wink: Philipp
 
-Friedrich
+:trollface: Friedrich
 
-Mirjam
+:persevere:Mirjam
 
-Christian
+:bicyclist: Christian
 
 Bogdan
 
@@ -26,7 +26,7 @@ Josef
 
 :) Klaus
 
-Jakob
+:alien: Jakob
 
 Dominik
 
