@@ -32,7 +32,7 @@ cd my-linux
 ```
 Kopiert von der Quelle "git://git.kernel.org/pub/scm/.../linux.git" das Repository und legt es im neuen Ordner "my-linux" ab.
 
-## Branch
+## :arrow_heading_up: Branch
 Branches anzeigen, erstellen oder entfernen.
 
 ```bash
@@ -63,13 +63,13 @@ git branch
 
 ### Beispiel 
 ```bash
-git branch my2.6.14 (1)
+git branch my2.6.14 (1) \
 git branch -d my2.6.13 (2)
 ```
 (1) Erstellt ein neuen Branch mit dem Namen "my2.6.14".
 (2) Löscht den Branch mit dem Namen "my2.6.13"
 
-## Switch
+## :twisted_rightwards_arrows: Switch
 Branches wechseln.
 
 ```bash
@@ -93,7 +93,7 @@ git switch my2.6.14
 ```
 Wechselt das aktuelle lokale Verzeichnis zu dem Branch "my2.6.14"  
 
-## Status
+## :information_source: Status
 Den Zustand des Arbeitsverzeichnisses anzeigen.
 
 ```bash
@@ -119,7 +119,7 @@ git pull
 
 ```
 
-## Add 
+## :white_check_mark: Add 
 Dateiinhalte zum Commit vormerken.
 
 ```bash
@@ -131,7 +131,7 @@ git add
 -A
 ```
 
-## Commit
+## :file_folder: Commit
 Änderungen in das Repository eintragen.
 
 ```basch 
@@ -155,8 +155,19 @@ git push
 ```
 
 
-# :x: .gitignore 
-Dies ist ein File, welcher festlegt welche dateien nicht syncronisirt werden.
+# :no_entry_sign: .gitignore 
+Mit einem ".gitignore" File kann Git mitgeteilt werden welche Daten nicht syn­chro­ni­sie­rt werden. 
+Dieser File mus im Hauptverzeichnis des Repository abgelegt werden.
+
+## Muster
+* `**/logs`
+* `*.log`
+* `debug[0-9].log`
+* `logs/`
+* `*.log`
+
+
+## Beispiel für C/C++
 
 ```bash
 # Build Ordner 
