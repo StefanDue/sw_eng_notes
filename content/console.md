@@ -14,7 +14,7 @@ Dem Befehl folgt eine Liste von Pfadnamen als Argument.
 
 #### Beispiel ohne Parameter
 ```bash
-mkdir Verzeichnisname
+mkdir [Verzeichnisname]
 ```
 
 #### Parameter
