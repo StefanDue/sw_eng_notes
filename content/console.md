@@ -18,8 +18,8 @@ mkdir Verzeichnisname
 ```
 
 #### Parameter
-`-p`: Wenn kein Verzeichnis existiert, wird ein neues erstellt. Bei vorhandenem Verzeichnis wird einfach fortgefahren.</p>
-`-v`: Auf der Konsole können die erstellen Verzeichnisse ausgegeben werden.
+`-p`: Wenn kein Verzeichnis existiert, wird ein neues erstellt. Bei vorhandenem Verzeichnis wird einfach fortgefahren.</b>
+`-v`: Auf der Konsole können die erstellen Verzeichnisse ausgegeben werden.</p>
 `-m`: Hinter dem Parameter kann als Oktalwert die Berechtigung für das Verzeichnis angegeben werden. 
 
 #### Beispiel mit Parameter
